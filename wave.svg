@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="2em" height="2em">
+  <style>
+    @keyframes wave {
+      0% { transform: rotate(0); }
+      25% { transform: rotate(15deg); }
+      50% { transform: rotate(0); }
+      75% { transform: rotate(-15deg); }
+      to { transform: rotate(0); }
+    }
+    #hand {
+      animation-name: wave;
+      animation-duration: .33s;
+      animation-timing-function: ease-in-oout;
+      animation-iteration-count: 2;
+      transform: rotate(0);
+      transform-origin: bottom right;
+    }
+  </style>
+  <text id="hand" x="2" y="16">👋</text>
+</svg>
